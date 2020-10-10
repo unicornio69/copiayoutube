@@ -2,6 +2,90 @@
     margin:0;
     padding:0;
 }
+.img{
+    width:30px;
+    height:20px;
+    padding:10px;
+    
+}
+.img1{
+    width:20px;
+    height:20px;
+    padding:10px;
+}
+#logo{
+    width:90px;
+    height:50px;
+    padding:0;
+}
+nav{ 
+
+width:1000px;
+margin: 20px auto;
+ 
+}
+#menu{
+
+
+    background: palevioletred;
+}
+#menu ul{
+    list-style: none;
+    margin:10px;
+    padding:10px;
+}
+
+#menu li{
+
+    display:inline-block;
+    padding:10px;
+
+}
+#menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    
+
+}
+#menu li a:hover {
+    background-color:purple;
+}
+.right{
+    float:left;
+    
+}
+.item{
+    float:right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+nav{
+    width:1000px;
+    margin:30px auto;
+}
 
 header{
     background:white;
@@ -9,15 +93,18 @@ header{
      }
 #menu{
 background:pink;
+
 }
 #menu ul{
     list-style:none;
-    margin:0;
-    padding:0;
+    /*margin:0;
+    padding:0
+    ;*/
+   /* box-sizing: border-box;
 }
 #menu li { 
     display:inline-block; 
-
+    margin:0px;
 } 
 #menu li a {
     color:black;
@@ -29,31 +116,98 @@ background:pink;
     background-color:purple;
 }
 .item{
+    
     float:right;
     padding:15px;
     
 }
 #centro{
     float:center;
-    position:absolute;
+    /*position:absolute;*/ /*
 }
 .img{display:inline-block;
-    width:30px;
-    height:30px;
+    width:40px;
 
-
+    height:40px;
+}
+.img1{
+    width:30PX;
+    height:30PX;
+     ;
 
 }
-#logo{
-    width:60px;
-    height:60px;
+#buscador{
+    content: 10px;
+    margin:10px auto;
     
 }
+#logo{
+    width:140px;
+    height:60px; 
+    margin-top:10px;
+    
+} /*
 aside{
     background:rgb(163, 124, 163);
     float:left;
     list-style:none;
 }
-#input{ width:2em;
+#input {
+
+margin-left: 2em;
+padding:8px;
+margin-bottom:auto;
+       
+     }
+
+
+    
+/*.submenu{position:absolute;
+    background:palevioletred;
+    display:block;
+    
+
+    
+    
+
 
 }
+.submenu li {
+    display:block;
+
+    padding:10px;
+    color:black;
+    font-family: cursive;
+    text-decoration:;
+
+}
+.submenu li ul{ display: none;
+    position:absolute;
+    
+
+}
+.menu li a:hover >ul{
+ visibility: visible;
+ }
+ .submenu >li{
+     display:block;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
